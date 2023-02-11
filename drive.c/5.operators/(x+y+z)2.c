@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+void main(){
+
+int x,y,z,a;
+
+printf("enter value of x :-");
+scanf("%d",&x);
+
+printf("enter value of y :-");
+scanf("%d",&y);
+
+printf("enter value of z :-");
+scanf("%d",&z);
+
+a = (x+y+z)*(x+y+z);
+printf("(x+y+z)2 is :- %d",a);
+
+}
